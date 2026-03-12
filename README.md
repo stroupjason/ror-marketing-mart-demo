@@ -133,3 +133,12 @@ This project is intentionally small, but it shows the exact shape of work that m
 - add geo/trade-area enrichment
 - add a BI dashboard on top of the mart
 - add orchestration and environment-specific deployment configs
+
+## Sample Output
+
+This screenshot shows the final KPI-ready mart at the grain of one row per activity date, campaign, and location.
+
+![Sample output of the marketing mart](assets/Screenshot 2026-03-11 at 22.16.10.png)
+![Sample output of the marketing mart](assets/Screenshot 2026-03-11 at 22.18.07.png)
+![Sample output of the marketing mart](assets/Screenshot 2026-03-11 at 22.19.24.png)
+![Sample output of the marketing mart](assets/Screenshot 2026-03-11 at 22.23.24.png)
