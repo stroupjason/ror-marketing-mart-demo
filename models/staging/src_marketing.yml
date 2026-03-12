@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_marketing
+    schema: analytics_raw
+    tables:
+      - name: campaigns
+      - name: locations
+      - name: spend
+      - name: leads
+      - name: conversions

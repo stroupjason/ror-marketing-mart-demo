@@ -1,0 +1,29 @@
+version: 2
+
+seeds:
+  - name: campaigns
+    config:
+      column_types:
+        campaign_id: integer
+  - name: locations
+    config:
+      column_types:
+        location_id: integer
+  - name: spend
+    config:
+      column_types:
+        campaign_id: integer
+        location_id: integer
+        spend_amount: double
+  - name: leads
+    config:
+      column_types:
+        lead_id: integer
+        campaign_id: integer
+        location_id: integer
+  - name: conversions
+    config:
+      column_types:
+        conversion_id: integer
+        lead_id: integer
+        revenue_amount: double

@@ -1,0 +1,8 @@
+ror_marketing_mart_demo:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ./ror_marketing_mart.duckdb
+      schema: analytics
+      threads: 4

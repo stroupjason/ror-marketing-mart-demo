@@ -1,0 +1,5 @@
+campaign_id,campaign_name,channel,start_date,end_date,status
+1,Spring Membership Push,paid_search,2026-03-01,2026-03-31,active
+2,Youth Soccer Promo,paid_social,2026-03-05,2026-03-28,active
+3,Wellness Email Nurture,email,2026-03-01,2026-03-20,active
+4,Display Awareness Blast,display,2026-03-10,2026-03-31,active

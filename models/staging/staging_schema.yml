@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: stg_marketing__campaigns
+    columns:
+      - name: campaign_id
+        data_tests:
+          - not_null
+          - unique
+      - name: channel
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['paid_search', 'paid_social', 'email', 'display']
+
+  - name: stg_marketing__locations
+    columns:
+      - name: location_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: stg_marketing__leads
+    columns:
+      - name: lead_id
+        data_tests:
+          - not_null
+          - unique
+      - name: campaign_id
+        data_tests:
+          - not_null
+      - name: location_id
+        data_tests:
+          - not_null
+
+  - name: stg_marketing__conversions
+    columns:
+      - name: conversion_id
+        data_tests:
+          - not_null
+          - unique
+      - name: lead_id
+        data_tests:
+          - not_null

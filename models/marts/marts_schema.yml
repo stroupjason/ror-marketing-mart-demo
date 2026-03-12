@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: dim_campaign
+    columns:
+      - name: campaign_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: dim_location
+    columns:
+      - name: location_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: fct_daily_campaign_location
+    columns:
+      - name: campaign_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_campaign')
+                field: campaign_id
+      - name: location_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_location')
+                field: location_id
+
+  - name: mart_location_marketing_summary
+    columns:
+      - name: total_spend
+        data_tests:
+          - not_null

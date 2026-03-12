@@ -1,0 +1,12 @@
+activity_date,campaign_id,campaign_name,channel,location_id,location_name,city,state,region,total_spend,total_leads,total_conversions,total_revenue,cost_per_lead,cost_per_conversion,lead_to_conversion_rate
+2026-03-10,1,Spring Membership Push,paid_search,101,Fort Collins Performance Center,Fort Collins,CO,Front Range,450.0,1,1,900.0,450.0,450.0,1.0
+2026-03-10,1,Spring Membership Push,paid_search,102,Loveland Recovery Hub,Loveland,CO,Front Range,320.0,1,0,0.0,320.0,,0.0
+2026-03-10,2,Youth Soccer Promo,paid_social,101,Fort Collins Performance Center,Fort Collins,CO,Front Range,280.0,1,1,850.0,280.0,280.0,1.0
+2026-03-10,2,Youth Soccer Promo,paid_social,103,Boulder Wellness Studio,Boulder,CO,Front Range,410.0,1,1,1100.0,410.0,410.0,1.0
+2026-03-10,3,Wellness Email Nurture,email,101,Fort Collins Performance Center,Fort Collins,CO,Front Range,60.0,1,0,0.0,60.0,,0.0
+2026-03-10,4,Display Awareness Blast,display,104,Colorado Springs Sports Lab,Colorado Springs,CO,South Front Range,215.0,1,0,0.0,215.0,,0.0
+2026-03-11,1,Spring Membership Push,paid_search,101,Fort Collins Performance Center,Fort Collins,CO,Front Range,475.0,1,1,950.0,475.0,475.0,1.0
+2026-03-11,1,Spring Membership Push,paid_search,102,Loveland Recovery Hub,Loveland,CO,Front Range,305.0,1,0,0.0,305.0,,0.0
+2026-03-11,2,Youth Soccer Promo,paid_social,103,Boulder Wellness Studio,Boulder,CO,Front Range,395.0,1,1,1200.0,395.0,395.0,1.0
+2026-03-11,3,Wellness Email Nurture,email,101,Fort Collins Performance Center,Fort Collins,CO,Front Range,55.0,1,0,0.0,55.0,,0.0
+2026-03-11,4,Display Awareness Blast,display,104,Colorado Springs Sports Lab,Colorado Springs,CO,South Front Range,225.0,1,1,875.0,225.0,225.0,1.0

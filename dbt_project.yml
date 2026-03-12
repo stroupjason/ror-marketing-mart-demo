@@ -1,0 +1,23 @@
+name: 'ror_marketing_mart_demo'
+version: '1.0.0'
+config-version: 2
+
+profile: 'ror_marketing_mart_demo'
+
+model-paths: ['models']
+seed-paths: ['seeds']
+test-paths: ['tests']
+clean-targets:
+  - 'target'
+  - 'dbt_packages'
+
+models:
+  ror_marketing_mart_demo:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
+
+seeds:
+  ror_marketing_mart_demo:
+    +schema: raw
