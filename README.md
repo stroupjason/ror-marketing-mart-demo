@@ -113,7 +113,7 @@ dbt test
 dbt docs generate
 ```
 
-## What this demonstrates in an interview
+## What this demonstrates
 
 This project is intentionally small, but it shows the exact shape of work that matters for the role:
 
@@ -125,7 +125,7 @@ This project is intentionally small, but it shows the exact shape of work that m
 - business-facing KPI logic
 - production-minded documentation
 
-## How I would extend this in production
+## How I would extend this in production (features)
 
 - add incremental models for larger lead/conversion volumes
 - add source freshness checks
